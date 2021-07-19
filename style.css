@@ -1,0 +1,77 @@
+/* initialisation of our style usually */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 80px 250px 80px ;
+    width: 200px ;
+    height: 1215 px;
+    align-items: center;
+    justify-items: center;
+    background: linear-gradient(180deg, rgba(255, 246, 240, 0.38) 0%, rgba(251, 232, 233, 0.31) 57.44%, rgba(252, 252, 255, 0.57) 100%);
+  
+    
+}
+
+
+.sidebar{
+   
+display: flex;
+text-align: center;
+font-family: Helvetica Neue;
+font-style: normal;
+font-size: 18px;
+line-height: 22px;
+grid-column:1/1;
+color: #4C4C66;
+
+
+
+}
+
+
+
+.content{
+    
+    grid-column-start: 1;
+    font-family: Helvetica Neue; 
+    font-style: normal;
+    font-weight: normal;
+    color: #6F6C99;
+    letter-spacing: 0.5px;
+    vertical-align: -100%;
+   
+}
+
+.footer  {
+     position: relative;
+     width:10px;
+     height:5px;
+     left: 120px;
+     top: 100px;
+     transition:transform 2s ease-in;
+     -webkit-transition:transform 2s ease-in;
+     -moz-transition:transform 2s ease-in;
+     -ms-transition:transform 2s ease-in;
+     -o-transition:transform 2s ease-in;
+}
+
+div.footer {
+    transform:translateX(100%);
+    animation: left to right 2s ease-in forwards;
+    -webkit-animation: left to right 2s ease-in forwards;
+    
+}  
+
+@keyframes left to right{
+
+    100%{
+        transform:translateX(100%);
+    }
+}
+
