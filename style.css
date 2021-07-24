@@ -214,4 +214,7 @@ border-radius: 9.09977px;
     height: 382.19px;
     left: 320px;
     top: 248.42px;
+    background:radial-gradient(48.48% 54.94% at 39.69% 80.76%, rgba(237, 236, 243, 0.23) 0%,
+     rgba(53, 48, 119, 0) 100%, rgba(230, 229, 245, 0.0001) 100%);
+    ;
 }

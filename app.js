@@ -122,7 +122,12 @@ var myChart = new Chart(ctx, {
       },
     },
     plugins: {
-      tooltip: {},
+      tooltip: {
+        plugins: {
+          legend: false,
+          tooltip: true,
+        },
+      },
       legend: {
         position: "top",
         align: "start",
